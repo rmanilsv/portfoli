@@ -1,0 +1,723 @@
+@font-face {
+
+font-family: "ARCADECLASSIC";
+src: url(ARCADECLASSIC.TTF); 
+
+    
+}
+
+
+.fons{
+width: 1920px;
+height: 1080px;
+display: inline-block;
+background-color: grey;
+}
+
+.header{
+text-align: center;
+font-family: "ARCADECLASSIC";
+font-size: 50px;
+background-color: gainsboro;
+    
+}
+
+.html {
+width: 200px;
+height: 120px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-image: url(imatges/boto_html.png);
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 100px;
+margin-left: 600px;
+margin-right: 0px;
+margin-bottom: 0px;
+transition: transform 0.25s;
+}
+
+.html:hover{
+
+transform: scale(0.9);    
+
+}
+
+.model {
+width: 200px;
+height: 120px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-image: url(imatges/boto_model2.png);
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 70px;
+margin-left: 70px;
+margin-right: 0px;
+margin-bottom: 0px;
+transition: transform 0.25s;    
+}
+
+.model:hover{
+
+transform: scale(0.9);    
+
+}
+
+.ps {
+width: 200px;
+height: 120px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-image: url(imatges/boto_ps.png);
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 70px;
+margin-left: 70px;
+margin-right: 0px;
+margin-bottom: 0px;
+transition: transform 0.25s;
+}
+
+.ps:hover{
+
+transform: scale(0.9);    
+
+}
+
+
+.dibu {
+width: 200px;
+height: 120px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-image: url(imatges/boto_dibu.png);
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 100px;
+margin-left: 600px;
+margin-right: 0px;
+margin-bottom: 0px;
+transition: transform 0.25s;    
+}
+
+.dibu:hover{
+
+transform: scale(0.9);    
+
+}
+
+
+.ilu {
+width: 200px;
+height: 120px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-image: url(imatges/boto_ilu.png);
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 70px;
+margin-left: 70px;
+margin-right: 0px;
+margin-bottom: 0px;
+transition: transform 0.25s;    
+}
+
+.ilu:hover{
+
+transform: scale(0.9);    
+
+}
+
+
+.text {
+width: 200px;
+height: 120px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-image: url(imatges/boto_text.png);
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 0px;
+margin-left: 70px;
+margin-right: 0px;
+margin-bottom: 0px;
+transition: transform 0.25s;    
+}
+
+.text:hover{
+
+transform: scale(0.9);    
+
+}
+
+
+.mi {
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 200px;
+margin-left: 740px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.mi:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+
+.cont {
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 70px;
+margin-left: 70px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.cont:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+.continguthtml{
+    
+width: 800px;
+height: 800px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 150px;
+text-align: center;
+background-image: url(imatges/world-of-warcraft2.png);
+background-position: center;    
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+line-height: 5;
+margin-top: 30px;
+margin-left: 550px;
+margin-right: 0px;
+margin-bottom: 0px;  
+   
+}
+
+.contingutmodel{
+    
+width: 800px;
+height: 700px;
+display: inline-block;
+background-image: url(imatges/illa.png);
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 30px;
+margin-left: 100px;
+margin-right: 0px;
+margin-bottom: 0px;  
+    
+}
+
+.contingutmodel2{
+    
+width: 800px;
+height: 700px;
+display: inline-block;
+background-image: url(imatges/drac.png);
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 30px;
+margin-left: 100px;
+margin-right: 0px;
+margin-bottom: 0px;   
+    
+}
+
+.contingutps{
+    
+width: 1024px;
+height: 800px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 150px;
+text-align: center;
+background-image: url(imatges/graffiti.jpg);
+background-position: center;    
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+line-height: 5;
+margin-top: 30px;
+margin-left: 400px;
+margin-right: 0px;
+margin-bottom: 0px; 
+    
+}
+
+.contingutdibu{
+    
+width: 800px;
+height: 700px;
+display: inline-block;
+background-image: url(imatges/DSC_0013_color.png);
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 30px;
+margin-left: 100px;
+margin-right: 0px;
+margin-bottom: 0px;   
+    
+}
+
+.contingutdibu2{
+    
+width: 800px;
+height: 600px;
+display: inline-block;
+background-image: url(imatges/dibu2.png);
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 30px;
+margin-left: 100px;
+margin-right: 0px;
+margin-bottom: 0px;   
+    
+}
+
+.contingutilu{
+    
+width: 1024px;
+height: 700px;
+display: inline-block;
+background-image: url(imatges/ilu1.png);
+background-position: center;    
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+line-height: 5;
+margin-top: 30px;
+margin-left: 450px;
+margin-right: 0px;
+margin-bottom: 0px;  
+    
+}
+
+
+.continguttext{
+    
+width: 800px;
+height: 700px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-image: url(imatges/snapshot_back2.png);
+color: white;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 30px;
+margin-left: 100px;
+margin-right: 0px;
+margin-bottom: 0px;  
+    
+}
+
+.continguttext2{
+    
+  width: 800px;
+height: 700px;
+display: inline-block;
+background-image: url(imatges/snapshot_front2.png);
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 80px;
+margin-top: 10px;
+margin-left: 100px;
+margin-right: 0px;
+margin-bottom: 0px;  
+    
+}
+
+.torna {
+    position: absolute;
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 30px;
+margin-left: 0px;
+left: 50%;
+top: 870px;
+margin-left: -100px;
+    
+/*margin-right: 0px;
+margin-bottom: 0px;*/
+}
+
+.torna:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+.mi2 {
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 120px;
+margin-left: 715px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.mi2:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+.cont2 {
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 120px;
+margin-left: 70px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.cont2:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+.torna2 {
+position: absolute;
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 50px;
+left: 855px;
+top: 870px;
+    
+/*margin-right: 0px;
+margin-bottom: 0px;*/
+}
+
+.torna2:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+.mi3 {
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 120px;
+margin-left: 715px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.mi3:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+.cont3 {
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 120px;
+margin-left: 70px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.cont3:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+.torna3 {
+position: absolute;
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 0px;
+left: 860px;
+top: 830px;
+    
+/*margin-right: 0px;
+margin-bottom: 0px;*/
+}
+
+.torna3:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+.mi4 {
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 120px;
+margin-left: 715px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.mi4:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+.cont4 {
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 120px;
+margin-left: 70px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.cont4:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+.torna4 {
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 100px;
+margin-left: 720px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.torna4:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+.contingutmi{
+    
+    width: 1024px;
+    height: 130px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    background-color: gainsboro;
+    color: black;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 50px;
+    margin-left: 430px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.contingutcont{
+    
+    width: 1024px;
+    height: 150px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    background-color: gainsboro;
+    color: black;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 50px;
+    margin-left: 430px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.mi5 {
+width: 200px;
+height: 40px;
+display: inline-block;
+font-family: "ARCADECLASSIC";
+font-size: 30px;
+text-align: center;
+background-color: gainsboro;
+color: black;
+border-radius: 5px;
+border-color: white;
+border-width: 20px;
+padding-top: 10px;
+margin-top: 120px;
+margin-left: 100px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.mi5:hover{
+background-color: black;
+color: gainsboro;  
+}
+
+#text {
+    vertical-align: middle;
+}
